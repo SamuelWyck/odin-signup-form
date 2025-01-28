@@ -22,13 +22,6 @@ html {
     border: 1px solid black;
 }
 
-.gradient {
-    background-image: radial-gradient(circle at center, #596D48, #ccc);
-    /* background-image: url(./images/space.png); */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -114,7 +107,6 @@ button {
 }
 
 .info-section {
-    /* min-width: 50%; */
     flex-grow: 4;
     flex-basis: 0;
     display: flex;
@@ -141,7 +133,7 @@ input {
     border-radius: 5px;
     width: 275px;
     font-size: 1.6rem;
-    height: 2.2em;
+    height: 2.3em;
     padding-left: 10px;
     outline: none;
 }
