@@ -156,6 +156,7 @@ label {
 .login-para {
     font-size: 1.6rem;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
 .login-para a {
