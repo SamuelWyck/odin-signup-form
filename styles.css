@@ -168,3 +168,14 @@ label {
     font-weight: bold;
     text-decoration: none;
 }
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    box-sizing: content-box;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
