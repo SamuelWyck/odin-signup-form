@@ -75,6 +75,20 @@ html {
     font-size: 13rem;
 }
 
+.img-credit {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color: white;
+    bottom: 2%;
+    left: center;
+    font-size: 1.6rem;
+}
+
+.img-credit a {
+    color: white;
+}
+
 p {
     max-width: 66ch;
 }
