@@ -122,7 +122,7 @@ button {
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    min-width: 56%;
+    min-width: 58%;
 }
 
 form {
@@ -143,6 +143,7 @@ input {
     font-size: 1.6rem;
     height: 2.2em;
     padding-left: 10px;
+    outline: none;
 }
 
 .input-container {
@@ -186,6 +187,8 @@ input:invalid {
     border-color: red;
 }
 
-input:focus {
+input[type="text"]:focus, input[type="tel"]:focus, 
+input[type="password"]:focus, input[type="email"]:focus {
     border-color:blue;
+    box-shadow: 1px 1px 10px 1px lightgray;
 }
