@@ -114,7 +114,7 @@ button {
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    min-width: 58%;
+    min-width: 60%;
 }
 
 form {
