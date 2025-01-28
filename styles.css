@@ -122,6 +122,7 @@ button {
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
+    min-width: 56%;
 }
 
 form {
@@ -136,7 +137,7 @@ form {
 }
 
 input {
-    border: 1px solid #E5E7EB;
+    border: 2px solid #E5E7EB;
     border-radius: 5px;
     width: 275px;
     font-size: 1.6rem;
@@ -147,6 +148,7 @@ input {
 .input-container {
     display: flex;
     gap: 70px;
+    flex-wrap: wrap;
 }
 
 label {
@@ -178,4 +180,12 @@ button {
     border-radius: 5px;
     font-weight: bold;
     font-size: 1.8rem;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    border-color:blue;
 }
